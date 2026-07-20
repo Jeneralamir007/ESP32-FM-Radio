@@ -45,3 +45,14 @@ A complete FM radio built with ESP32 and RDA5807M.
 | RDA5807 ROUT  | PAM8403 R IN  |
 | PAM8403 L OUT | Left Speaker  |
 | PAM8403 R OUT | Right Speaker |
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+you can change Change this text ("CYBER FM") to display your own name or logo during startup from hear
+
+void showBootScreen()
+{
+    lcd.clear();
+
+    lcd.setCursor(2,0);
+    lcd.print("CYBER FM");      // Change this text ("CYBER FM") to display your own name or logo during startup.
