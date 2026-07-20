@@ -50,9 +50,5 @@ A complete FM radio built with ESP32 and RDA5807M.
 
 you can change Change this text ("CYBER FM") to display your own name or logo during startup from hear
 
-void showBootScreen()
-{
-    lcd.clear();
-
     lcd.setCursor(2,0);
     lcd.print("CYBER FM");      // Change this text ("CYBER FM") to display your own name or logo during startup.
