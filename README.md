@@ -24,7 +24,3 @@ A complete FM radio built with ESP32 and RDA5807M.
 - LCD1602 I2C
 - KY-040 Encoder
 
-## Future
-
-- Bluetooth Audio
-- ESP32 DAC
